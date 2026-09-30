@@ -1,6 +1,7 @@
 from products import add_product
 from sales import buy_product
 from report import report_product, report_sales_by_product, report_total_sales
+import os
 
 INVALID = "YOUR ENTER ISN'T CORRECT TRY AGAIN"
 
@@ -48,4 +49,5 @@ def menu():
 
 
 if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     menu()
