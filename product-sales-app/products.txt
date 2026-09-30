@@ -1,3 +1,5 @@
 1,pepsi,15.0
 2,oishi,25.0
 3,Ley,20.0
+4,water,10.0
+5,Tomyum,50.0
