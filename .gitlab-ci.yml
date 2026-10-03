@@ -1,0 +1,11 @@
+default:
+  image: python:3.10-slim
+
+stages:
+  - test
+
+run-pytest:
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - pytest product-sales-app/tests
